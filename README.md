@@ -12,7 +12,10 @@ adb [-s <specific device>] shell am broadcast -a send.mock [-e lat<latitude>] [-
 adb  shell am broadcast -a stop.mock
 ```
 
-Example:
+### Example:
+
+Specify a latitude and longitude respetively.
+
 ```batch
 adb  shell am broadcast -a send.mock -e lat 15.3 -e lon 99
 ```
