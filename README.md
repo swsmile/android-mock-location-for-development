@@ -1,6 +1,8 @@
-This app allows you to change mock location from terminal using adb in order to test GPS on real devices.
+## This demo allows you to change mock location from terminal via `adb` in order to test GPS on real Android devices.
 
-Usage:
+
+## Usage:
+
 ```batch
 adb [-s <specific device>] shell am broadcast -a send.mock [-e lat<latitude>] [-e lon <longitude>]
         [-e alt <altitude>] [-e accurate <accurate>]
